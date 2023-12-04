@@ -94,7 +94,7 @@ function countIntegersInArray(array) {
 function comparePositiveAndNegativeCount(array) {
     const countPositives = array.filter(num => num > 0).length;
     const countNegatives = array.filter(num => num < 0).length;
-    return countPositives > countNegatives ? 'More positive numbers' : 'More negative numbers';
+    return countPositives > countNegatives ? 'số dương > số âm' : 'số dương < số âm';
 }
 
 function displayResults(results) {

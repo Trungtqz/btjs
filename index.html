@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="trung">
+      <label>Nhập các số nguyên (cách nhau bằng dấu phẩy):</label>
+      <input type="text" id="inputArray" />
 
+      <button onclick="displayResult('sumOfPositives')">
+        1. Tổng các số dương
+      </button>
+      <button onclick="displayResult('countPositives')">2. Đếm số dương</button>
+      <button onclick="displayResult('minNumber')">3. Tìm số nhỏ nhất</button>
+      <button onclick="displayResult('minPositiveNumber')">
+        4. TÌm số dương nhỏ nhất
+      </button>
+      <button onclick="displayResult('lastEvenNumber')">
+        5. Tìm số chẵn cuối cùng
+      </button>
+      <button onclick="displayResult('swapArray')">6. Đổi chỗ</button>
+      <button onclick="displayResult('sortArray')">7. Sắp xếp tăng dần</button>
+      <button onclick="displayResult('firstPrimeNumber')">
+        8. Tìm số nguyên tố đầu tiên
+      </button>
+      <button onclick="displayResult('countIntegers')">9. Đếm số nguyên</button>
+      <button onclick="displayResult('compareCounts')">
+        10. So sánh số lượng sô âm và dương
+      </button>
 
-   <!-- <h1>Array Operations</h1>
-    
-   <label>Enter integers (separated by commas):</label>
-   <input type="text" id="inputArray">
-   <button onclick="performOperations()">Perform Operations</button>
+      <div id="result"></div>
+    </div>
 
-   <div id="result"></div> -->
-
-   <h1>Array Operations</h1>
-
-   <label>Enter integers (separated by commas):</label>
-   <input type="text" id="inputArray">
-   
-   <button onclick="displayResult('sumOfPositives')">1. Sum of Positives</button>
-   <button onclick="displayResult('countPositives')">2. Count of Positives</button>
-   <button onclick="displayResult('minNumber')">3. Minimum Number</button>
-   <button onclick="displayResult('minPositiveNumber')">4. Min Positive Number</button>
-   <button onclick="displayResult('lastEvenNumber')">5. Last Even Number</button>
-   <button onclick="displayResult('swapArray')">6. Swap Array Elements</button>
-   <button onclick="displayResult('sortArray')">7. Sort Array</button>
-   <button onclick="displayResult('firstPrimeNumber')">8. First Prime Number</button>
-   <button onclick="displayResult('countIntegers')">9. Count Integers</button>
-   <button onclick="displayResult('compareCounts')">10. Compare Counts</button>
-
-   <div id="result"></div>
-
-
-
-   
-
-
-
-   <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

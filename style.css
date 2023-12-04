@@ -1,0 +1,19 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.trung {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: flex-start;
+   align-content: center;
+   margin-top: 50px;
+}
+button {
+   cursor: pointer;
+   padding: 5px;
+   margin: 5px;
+}
